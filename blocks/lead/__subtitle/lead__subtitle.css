@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 445px) {
   .lead__subtitle {
     font-size: 16px;
     line-height: 1.25;

@@ -1,4 +1,5 @@
 .place__url-heading {
+  display: inline-block;
   max-width: 456px;
   margin: 0;
   margin-bottom: 12px;
@@ -6,4 +7,5 @@
   line-height: 12px;
   letter-spacing: 0.2em;
   color:#AAAAAA;
+  text-transform: uppercase;
 }

@@ -4,6 +4,7 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
+  align-self: flex-start;
   text-decoration-line: underline;
   color: #FFFFFF;
   transition: opacity .3s linear;
