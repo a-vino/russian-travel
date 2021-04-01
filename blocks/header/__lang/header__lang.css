@@ -1,0 +1,16 @@
+.header__lang {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@media (max-width: 320px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 20px;
+    }
+}

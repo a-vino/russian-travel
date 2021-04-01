@@ -1,0 +1,77 @@
+.cover__background {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-image: url('../../../images/cover-trains.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 740px;
+  z-index: 1;
+}
+
+.cover__background:hover {
+  cursor: url('../../../images/Imported\ Layers\ Copy\ 4.png'), pointer;
+}
+
+
+@media (max-width: 1024px) {
+  .cover__background {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 880px) {
+  .cover__background {
+    min-height: 550px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 540px) {
+  .cover__background {
+    min-height: 337px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover__background {
+    min-height: 265px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__background {
+    min-height: 200px;
+  }
+}
+
+.cover__background::after {
+  content: "";
+  background-color: #2A2C2F;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.2s linear;
+  opacity: .3;
+  z-index: -1;
+}
+
+.cover__background:hover::after {
+  opacity: .8;
+}

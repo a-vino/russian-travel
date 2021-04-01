@@ -1,0 +1,13 @@
+.footer__auth {
+  min-height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 715px) {
+  .footer__auth {
+    padding-top: 48px;
+  }
+}

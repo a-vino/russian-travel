@@ -1,0 +1,21 @@
+.place__link {
+  max-width: 456px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  transition: opacity .3s linear;
+}
+
+@media (max-width: 768px) {
+  .place__link {
+    max-width: 352px;
+  }
+}
+
+.place__link:hover {
+  opacity: .8;
+  cursor: url('../../../images/Imported\ Layers\ Copy\ 4.png'), pointer;
+}

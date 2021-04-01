@@ -1,0 +1,48 @@
+.cover {
+  max-width: 1184px;
+  min-height: 740px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 880px) {
+  .cover {
+    max-width: 880px;
+    min-height: 550px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 540px) {
+  .cover {
+    max-width: 540px;
+    min-height: 337px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover {
+    max-width: 425px;
+    min-height: 265px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
+  }
+}

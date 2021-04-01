@@ -1,0 +1,16 @@
+.footer__nav-list {
+  padding-right: 18px;
+}
+
+.footer__nav-list:last-child {
+  padding-right: 0;
+}
+
+@media (max-width: 500px) {
+  .footer__nav-list {
+    padding-bottom: 32px;
+    }
+    .footer__nav-list:last-child {
+      padding-bottom: 0;
+    }
+}
