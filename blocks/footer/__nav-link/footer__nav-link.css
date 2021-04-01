@@ -8,6 +8,7 @@
 
 .footer__nav-link:hover {
   cursor: url('../../../images/Imported\ Layers\ Copy\ 4.png'), pointer;
+  opacity: .8;
 }
 
 @media (max-width: 500px) {
@@ -15,8 +16,4 @@
     font-size: 24px;
     line-height: 24px;
     }
-}
-
-.footer__nav-link:hover {
-  opacity: .8;
 }
