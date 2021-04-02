@@ -18,5 +18,5 @@
 
 .place__link:hover {
   opacity: .8;
-  cursor: url('../../../images/Imported\ Layers\ Copy\ 4.png'), pointer;
+  cursor: url("../../../images/Imported\ Layers\ Copy\ 4.png"), pointer;
 }
