@@ -12,15 +12,13 @@
 @media (max-width: 750px) {
   .lead__title {
     font-size: 76px;
-    line-height: 1.04;
-    }
+  }
 }
 
 @media (max-width: 570px) {
   .lead__title {
     font-size: 60px;
-    line-height: 1.04;
-    }
+  }
 }
 
 @media (max-width: 465px) {
@@ -28,5 +26,5 @@
     font-size: 40px;
     line-height: 44px;
     max-width: 288px;
-    }
+  }
 }
